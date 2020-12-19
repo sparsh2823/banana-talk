@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body{
+
+    font-family: 'Courgette', cursive;
+   
+}
+
+:root{
+    --primary-color:#FCD34D;
+    --dark-gray:#374151;
+    
+
+}
+
+
+.hero{
+
+    padding: 1rem;
+    padding-top: 1rem;
+    background-color: var(--primary-color);
+
+}
+
+
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 0.5rem;
+    color: var(--dark-gray);
+
+}
+
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width:600px;
+    margin:auto;
+}
+
+.section{
+    padding: 1rem;
+}
+
+#txt-input{
+    
+        width: 80%;
+        height: 15vh;
+        display: block;
+        /* margin: 1rem; */
+        padding: 1rem;
+        font-family: 'Courgette', cursive;
+        margin-top: 3rem;
+}
+
+#btn-translate{
+    background-color:var(--primary-color);
+    color:black;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-family: 'Courgette', cursive;
+}
+
+#output{
+    border: 1px solid black;
+    width:80%;
+    display:block;
+    height: 15vh;
+    /* margin: 1rem; */
+    padding: 1rem;
+    margin-bottom: 3rem;
+
+}
+
+
+.footer{
+    background-color:var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:var(--dark-gray);
+    
+    
+
+}
+
+.footer .footer-header{
+
+    font-weight: bold;
+    font-size: large;
+    color: var(--dark-gray);
+    font-family: 'Courgette', cursive;
+
+}
+
+
+    
+
+
